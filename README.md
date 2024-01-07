@@ -17,12 +17,13 @@ I forked [mriscoc's Ender3V2S1 config](https://github.com/mriscoc/Ender3V2S1):
 2. Checkout the ender3maxneo branch
 3. In VSCode, set up the extensions "PlatformIO IDE" and "Auto Build Marlin"
 4. Try out a build (I'm not sure what's the diff between RE and RC)
-5. Put the bin file into your microSD card
+5. Reset the firmware using files from the [official website](https://www.creality.com/pages/download-ender-3-max-neo)
+   1. I've found that I needed to reset it to the original firmware for it to receive a new firmware. Your mileage may vary.
+6. Put the bin file into your microSD card
    1. Make sure it's the only file there
-   2. The name kind of matters, the machine will remember not update if the name repeats
-6. Switch off your printer, plug the microSD card in, and switch on the printer. It should start updating.
-7. You may need to update the screen firmware, guide [here](https://github.com/mriscoc/Ender3V2S1/wiki/How-to-update-the-display)
-8. Troubleshooting tips can be found [here](https://github.com/mriscoc/Ender3V2S1/wiki/How-to-install-the-firmware)
-9. If all else fails, you can reset the firmware using files from the [official website](https://www.creality.com/pages/download-ender-3-max-neo)
+   2. The name kind of matters, the machine will not update if the name repeats
+7. Switch off your printer, plug the microSD card in, and switch on the printer. It should start updating.
+8. You may need to update the screen firmware, guide [here](https://github.com/mriscoc/Ender3V2S1/wiki/How-to-update-the-display)
+9. Troubleshooting tips can be found [here](https://github.com/mriscoc/Ender3V2S1/wiki/How-to-install-the-firmware)
 
 I've included a sample firmware build here as well. It should be my latest settings, but I don't remember whether the last commit was a working version so I can't be sure if it works 100%.
