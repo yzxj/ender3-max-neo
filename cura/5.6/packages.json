@@ -1,0 +1,96 @@
+{
+    "dismissed": [],
+    "installed": {
+        "CalibrationShapes": {
+            "filename": "C:\\Users\\yeozx\\AppData\\Local\\cura\\5.3\\cache\\cura_packages\\CalibrationShapes.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "This plugin adds a menu to create some basic shapes to the scene (cube, cylinder, tube, sphere) and standard test parts. \n\nYou can add standard test / calibration part :\n- Calibration Cube XYZ\n- PLA TempTower 220 - 180\u00b0C\n- PLA TempTower 220 - 190\u00b0C\n- PLA+ TempTower 230 - 200\u00b0C\n- ABS TempTower 250 - 210\u00b0C\n- PETG TempTower 260 - 230\u00b0C\n- PC TempTower 290 - 250\u00b0C\n- Acceleration Tower\n- Retract Tower\n- A XY calibration Test\n- Retract Test part\n- Bridge Spiral Test\n- Thin Wall Test\n- Overhang Test\n- Flow Tower Test\n- Flow Test\n- Max Flow Test\n- Multi Flow Test\n- Tolerance Test\n- Support Test\n- Lithophane Test\n- Dimensional Accuracy Test\n- Linear Pressure Advance Tower\n- Bed Level Calibration Test\n\nAnd Multi-Extruder part :\n- Extruder Offset Calibration\n- Calibration Cube bi-color\n- Cube bi-color\n\n+ 7 postprocessing scripts",
+                "display_name": "Calibration Shapes",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CalibrationShapes",
+                "package_type": "plugin",
+                "package_version": "2.2.2",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.3.0",
+                "website": "https://github.com/5axes/Calibration-Shapes"
+            }
+        },
+        "LinearAdvanceSettingPlugin": {
+            "filename": "C:\\Users\\yeozx\\AppData\\Local\\cura\\5.3\\cache\\cura_packages\\LinearAdvanceSettingPlugin.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Adds a Linear Advance Ratio setting for firmware that supports the LIN_ADVANCE feature",
+                "display_name": "Linear Advance Settings",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "LinearAdvanceSettingPlugin",
+                "package_type": "plugin",
+                "package_version": "3.6.1",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/fieldOfView/Cura-LinearAdvanceSettingPlugin"
+            }
+        },
+        "MeasureTool": {
+            "filename": "C:\\Users\\yeozx\\AppData\\Local\\cura\\5.3\\cache\\cura_packages\\MeasureTool.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Adds a tool for measuring parts of models.\n\nThe plugin lets the user select two points, either on models or on the build plate. The distance between these two points is shown in the panel for the tool; the distance is shown both per axis and diagonally. \n\nWhen clicking the tool moves the closest of the two points to the cursor. Hold down the shift key to alternate between the two points instead.\n\nThe development of this plugin can be sponsored via Github Sponsors (https://github.com/sponsors/fieldofview) or Paypal (https://www.paypal.me/fieldofview)",
+                "display_name": "Measure Tool",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "MeasureTool",
+                "package_type": "plugin",
+                "package_version": "1.2.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/fieldOfView/Cura-MeasureTool/"
+            }
+        },
+        "SettingsGuide2": {
+            "filename": "C:\\Users\\yeozx\\AppData\\Local\\cura\\5.3\\cache\\cura_packages\\SettingsGuide2.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "Ghostkeeper",
+                    "display_name": "Ghostkeeper",
+                    "email": "rubend@tutanota.com",
+                    "website": "https://github.com/Ghostkeeper"
+                },
+                "description": "A guide on what settings do and how to use them.\nRight-click on a setting to access the guide.",
+                "display_name": "Settings Guide",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "SettingsGuide2",
+                "package_type": "plugin",
+                "package_version": "2.9.2",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/Ghostkeeper/SettingsGuide"
+            }
+        }
+    },
+    "to_install": {},
+    "to_remove": [],
+    "version": 1
+}

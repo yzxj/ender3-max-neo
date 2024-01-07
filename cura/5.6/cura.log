@@ -1,0 +1,545 @@
+2024-01-07 14:19:18,901 - INFO - [MainThread] UM.Qt.QtApplication.__init__ [89]: Adding QT6 plugin path: C:\Program Files\UltiMaker Cura 5.6.0\PyQt6\plugins
+2024-01-07 14:19:18,901 - INFO - [MainThread] UM.Qt.QtApplication.__init__ [99]: Adding QT5 plugin path: C:\Program Files\UltiMaker Cura 5.6.0\PyQt6\plugins
+2024-01-07 14:19:18,901 - DEBUG - [MainThread] UM.Application.initialize [163]: Initializing UltiMaker Cura
+2024-01-07 14:19:18,902 - DEBUG - [MainThread] UM.Application.initialize [164]: App Version 5.6.0
+2024-01-07 14:19:18,902 - DEBUG - [MainThread] UM.Application.initialize [165]: Api Version 8.6.0
+2024-01-07 14:19:18,902 - DEBUG - [MainThread] UM.Application.initialize [166]: Build type None
+2024-01-07 14:19:18,902 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\lib\uranium must be a folder.
+2024-01-07 14:19:18,903 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\lib64\uranium must be a folder.
+2024-01-07 14:19:18,903 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\lib32\uranium must be a folder.
+2024-01-07 14:19:18,903 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\UltiMaker Cura 5.6.0\plugins must be a folder.
+2024-01-07 14:19:18,904 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\Resources\uranium\plugins must be a folder.
+2024-01-07 14:19:18,904 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\Resources\cura\plugins must be a folder.
+2024-01-07 14:19:18,904 - DEBUG - [MainThread] UM.Resources.__initializeStoragePaths [481]: Initializing storage paths
+2024-01-07 14:19:18,904 - DEBUG - [MainThread] UM.Resources.__initializeStoragePaths [491]: Config storage path is C:\Users\yeozx\AppData\Roaming\cura\5.6
+2024-01-07 14:19:18,904 - DEBUG - [MainThread] UM.Resources.__initializeStoragePaths [499]: Data storage path is C:\Users\yeozx\AppData\Roaming\cura\5.6
+2024-01-07 14:19:18,905 - DEBUG - [MainThread] UM.Resources.__initializeStoragePaths [511]: Cache storage path is C:\Users\yeozx\AppData\Local\cura\5.6\cache
+2024-01-07 14:19:18,905 - DEBUG - [MainThread] UM.Resources._copyLatestDirsIfPresent [536]: Found config: ['C:\\Users\\yeozx\\AppData\\Roaming\\cura', 'C:\\Users\\yeozx\\AppData\\Local\\cura'] and data: ['C:\\Users\\yeozx\\AppData\\Roaming\\cura', 'C:\\Users\\yeozx\\AppData\\Local\\cura']
+2024-01-07 14:19:18,905 - DEBUG - [MainThread] UM.Resources._copyLatestDirsIfPresent [540]: Latest config path: C:\Users\yeozx\AppData\Roaming\cura\5.3 and latest data path: C:\Users\yeozx\AppData\Roaming\cura\5.3
+2024-01-07 14:19:18,905 - INFO - [MainThread] UM.Resources.copyVersionFolder [576]: Copying directory from 'C:\Users\yeozx\AppData\Roaming\cura\5.3' to 'C:\Users\yeozx\AppData\Roaming\cura\5.6'
+2024-01-07 14:19:18,906 - INFO - [MainThread] UM.PackageManager.__init__ [56]: Found bundled packages JSON file: C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\bundled_packages\uranium.json
+2024-01-07 14:19:18,906 - INFO - [MainThread] UM.PackageManager.__init__ [56]: Found bundled packages JSON file: C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\bundled_packages\bundled_CuraEngineGradualFlow.json
+2024-01-07 14:19:18,906 - INFO - [MainThread] UM.PackageManager.__init__ [56]: Found bundled packages JSON file: C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\bundled_packages\cura.json
+2024-01-07 14:19:18,906 - DEBUG - [MainThread] UM.View.GL.OpenGLContext.detectBestOpenGLVersion [124]: Trying OpenGL context 4.1...
+2024-01-07 14:19:18,906 - DEBUG - [MainThread] UM.View.GL.OpenGLContext.detectBestOpenGLVersion [132]: Yay, we got at least OpenGL 4.1 core: 4.1 Core profile
+2024-01-07 14:19:18,907 - DEBUG - [MainThread] UM.Qt.QtApplication.initialize [192]: Detected most suitable OpenGL context version: 4.1 Core profile
+2024-01-07 14:19:18,907 - INFO - [MainThread] UM.Qt.QtApplication.initialize [199]: Initializing job queue ...
+2024-01-07 14:19:18,907 - INFO - [MainThread] UM.Qt.QtApplication.initialize [203]: Initializing version upgrade manager ...
+2024-01-07 14:19:18,907 - INFO - [MainThread] UM.PackageManager._loadManagementData [174]: Loaded bundled packages data from C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\bundled_packages\uranium.json
+2024-01-07 14:19:18,907 - INFO - [MainThread] UM.PackageManager._loadManagementData [174]: Loaded bundled packages data from C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\bundled_packages\bundled_CuraEngineGradualFlow.json
+2024-01-07 14:19:18,908 - INFO - [MainThread] UM.PackageManager._loadManagementData [174]: Loaded bundled packages data from C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\bundled_packages\cura.json
+2024-01-07 14:19:18,908 - INFO - [MainThread] UM.PackageManager._loadManagementData [201]: Loaded user packages management file from C:\Users\yeozx\AppData\Roaming\cura\5.6\packages.json
+2024-01-07 14:19:18,908 - INFO - [MainThread] UM.PackageManager._removeAllScheduledPackages [280]: Attempting to remove the following scheduled packages: - 
+2024-01-07 14:19:18,908 - INFO - [MainThread] UM.PluginRegistry.initializeBeforePluginsAreLoaded [136]: Loading plugin configuration file 'C:\Users\yeozx\AppData\Roaming\cura\5.6\plugins.json'
+2024-01-07 14:19:18,908 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\lib\cura must be a folder.
+2024-01-07 14:19:18,911 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin FileLogger 1.0.1
+2024-01-07 14:19:18,930 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin LocalContainerProvider 1.0.1
+2024-01-07 14:19:18,946 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin LocalFileOutputDevice 1.0.1
+2024-01-07 14:19:18,958 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CameraTool 1.0.1
+2024-01-07 14:19:18,972 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin MirrorTool 1.0.1
+2024-01-07 14:19:18,989 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin RotateTool 1.0.1
+2024-01-07 14:19:19,005 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin ScaleTool 1.0.1
+2024-01-07 14:19:19,017 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SelectionTool 1.0.1
+2024-01-07 14:19:19,034 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin TranslateTool 1.0.1
+2024-01-07 14:19:19,069 - INFO - [MainThread] UpdateChecker.UpdateChecker.checkNewVersion [69]: Checking for new version
+2024-01-07 14:19:19,074 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin UpdateChecker 1.0.1
+2024-01-07 14:19:19,112 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SimpleView 1.0.1
+2024-01-07 14:19:19,168 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin 3MFReader 1.0.1
+2024-01-07 14:19:19,188 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin 3MFWriter 1.0.1
+2024-01-07 14:19:19,472 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin AMFReader 1.0.0
+2024-01-07 14:19:19,498 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CuraDrive 1.2.0
+2024-01-07 14:19:19,680 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.__init__ [108]: Found CuraEngine at: C:\Program Files\UltiMaker Cura 5.6.0\CuraEngine.exe
+2024-01-07 14:19:19,683 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CuraEngineBackend 1.0.1
+2024-01-07 14:19:19,690 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [232]: Socket state changed to Listening
+2024-01-07 14:19:19,702 - INFO - [MainThread] UM.Backend.Backend.startEngine [96]: Started engine process: C:\Program Files\UltiMaker Cura 5.6.0\CuraEngine.exe
+2024-01-07 14:19:19,702 - DEBUG - [MainThread] UM.Backend.Backend._backendLog [140]: [Backend] Calling engine with: ['C:\\Program Files\\UltiMaker Cura 5.6.0\\CuraEngine.exe', 'connect', '127.0.0.1:49674', '']
+2024-01-07 14:19:19,722 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CuraEngineGradualFlow 0.1.0
+2024-01-07 14:19:19,735 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CuraProfileReader 1.0.1
+2024-01-07 14:19:19,764 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CuraProfileWriter 1.0.1
+2024-01-07 14:19:19,798 - DEBUG - [EngineOutputThread] UM.Backend.Backend._backendLog [140]: [Backend] [2024-01-07 14:19:19.797] [info] Connecting to 127.0.0.1:49674
+2024-01-07 14:19:19,868 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin DigitalLibrary 1.1.0
+2024-01-07 14:19:19,868 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [236]: Socket state changed to Connected
+2024-01-07 14:19:19,869 - DEBUG - [MainThread] UM.Backend.Backend._onSocketStateChanged [225]: Backend connected on port 49674
+2024-01-07 14:19:19,888 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin FirmwareUpdateChecker 1.0.1
+2024-01-07 14:19:19,900 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin FirmwareUpdater 1.0.1
+2024-01-07 14:19:19,911 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin GCodeGzReader 1.0.1
+2024-01-07 14:19:19,911 - DEBUG - [EngineOutputThread] UM.Backend.Backend._backendLog [140]: [Backend] [2024-01-07 14:19:19.911] [info] Connected to 127.0.0.1:49674
+2024-01-07 14:19:19,923 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin GCodeGzWriter 1.0.1
+2024-01-07 14:19:19,934 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin GCodeProfileReader 1.0.1
+2024-01-07 14:19:19,957 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin GCodeReader 1.0.1
+2024-01-07 14:19:19,969 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin GCodeWriter 1.0.1
+2024-01-07 14:19:19,985 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin ImageReader 1.0.1
+2024-01-07 14:19:20,000 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin LegacyProfileReader 1.0.1
+2024-01-07 14:19:20,011 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin MachineSettingsAction 1.0.1
+2024-01-07 14:19:20,048 - INFO - [MainThread] MakerbotWriter.MakerbotWriter.__init__ [34]: Using PyDulcificum: 0.1.0-beta.1
+2024-01-07 14:19:20,050 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin MakerbotWriter 0.1.0
+2024-01-07 14:19:20,135 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [145]: No auth data to retrieve the access_token from
+2024-01-07 14:19:20,137 - DEBUG - [MainThread] cura.UltimakerCloud.UltimakerCloudScope.requestHook [30]: User is not logged in for Cloud API request to https://api.ultimaker.com/cura-packages/v1/cura/v8.6.0/packages/package-updates?installed_packages=TrimeshReader:1.0.0&installed_packages=ScaleTool:1.0.1&installed_packages=SliceInfoPlugin:1.0.1&installed_packages=VersionUpgrade52to53:1.0.0&installed_packages=3MFReader:1.0.1&installed_packages=UM3NetworkPrinting:1.0.1&installed_packages=VersionUpgrade22to24:1.0.1&installed_packages=STLWriter:1.0.1&installed_packages=CuraDrive:1.2.0&installed_packages=UltimakerMachineActions:1.0.1&installed_packages=ImageReader:1.0.1&installed_packages=XRayView:1.0.1&installed_packages=MirrorTool:1.0.1&installed_packages=VersionUpgrade413to50:1.0.0&installed_packages=VersionUpgrade40to41:1.0.1&installed_packages=CuraProfileReader:1.0.1&installed_packages=GCodeGzReader:1.0.1&installed_packages=VersionUpgrade33to34:1.0.1&installed_packages=X3DReader:1.0.1&installed_packages=SimulationView:1.0.1&installed_packages=OBJWriter:1.0.1&installed_packages=CuraProfileWriter:1.0.1&installed_packages=AMFReader:1.0.0&installed_packages=VersionUpgrade32to33:1.0.1&installed_packages=SettingsGuide2:2.9.2&installed_packages=VersionUpgrade30to31:1.0.1&installed_packages=CalibrationShapes:2.2.2&installed_packages=VersionUpgrade45to46:1.0.0&installed_packages=VersionUpgrade26to27:1.0.1&installed_packages=SupportEraser:1.0.1&installed_packages=USBPrinting:1.0.2&installed_packages=VersionUpgrade21to22:1.0.1&installed_packages=VersionUpgrade49to410:1.0.0&installed_packages=SentryLogger:1.0.0&installed_packages=VersionUpgrade462to47:1.0.0&installed_packages=VersionUpgrade460to462:1.0.0&installed_packages=GCodeGzWriter:1.0.1&installed_packages=RemovableDriveOutputDevice:1.0.1&installed_packages=MeasureTool:1.2.0&installed_packages=VersionUpgrade44to45:1.0.0&installed_packages=LinearAdvanceSettingPlugin:3.6.1&installed_packages=PostProcessingPlugin:2.2.1&installed_packages=GCodeReader:1.0.1&installed_packages=FirmwareUpdateChecker:1.0.1&installed_packages=PerObjectSettingsTool:1.0.1&installed_packages=VersionUpgrade34to35:1.0.1&installed_packages=DigitalLibrary:1.1.0&installed_packages=UFPReader:1.0.0&installed_packages=VersionUpgrade411to412:1.0.0&installed_packages=RotateTool:1.0.1&installed_packages=VersionUpgrade27to30:1.0.1&installed_packages=GCodeProfileReader:1.0.1&installed_packages=VersionUpgrade43to44:1.0.0&installed_packages=VersionUpgrade48to49:1.0.0&installed_packages=CuraEngineGradualFlow:0.1.0&installed_packages=MachineSettingsAction:1.0.1&installed_packages=UpdateChecker:1.0.1&installed_packages=UFPWriter:1.0.1&installed_packages=VersionUpgrade41to42:1.0.0&installed_packages=VersionUpgrade42to43:1.0.0&installed_packages=OBJReader:1.0.1&installed_packages=VersionUpgrade25to26:1.0.1&installed_packages=ModelChecker:1.0.1&installed_packages=MakerbotWriter:1.0.1&installed_packages=VersionUpgrade35to40:1.0.0&installed_packages=LegacyProfileReader:1.0.1&installed_packages=FirmwareUpdater:1.0.1&installed_packages=VersionUpgrade47to48:1.0.0&installed_packages=GenericCFFPA:1.4.0&installed_packages=UltimakerBAM:1.4.0&installed_packages=FABtotumNylon:1.4.0&installed_packages=UltimakerCPEP:1.4.0&installed_packages=PolyPlusPLA:1.0.1&installed_packages=GenericPETG:1.4.0&installed_packages=PolyMaxPLA:1.0.1&installed_packages=VertexDeltaABS:1.4.0&installed_packages=FABtotumABS:1.4.0&installed_packages=FiberlogyHDPLA:1.0.1&installed_packages=UltimakerPLA:1.4.0&installed_packages=DagomaChromatikPLA:1.0.1&installed_packages=UltimakerTPLA:1.4.0&installed_packages=VertexDeltaPET:1.4.0&installed_packages=UltimakerABS:1.4.0&installed_packages=UltimakerPC:1.4.0&installed_packages=VertexDeltaPLA:1.4.0&installed_packages=GenericBAM:1.4.0&installed_packages=IMADE3DJellyBOXPLA:1.0.1&installed_packages=PolyFlexPLA:1.0.1&installed_packages=FABtotumTPU:1.4.0&installed_packages=GenericGFFPA:1.4.0&installed_packages=GenericCPEPlus:1.4.0&installed_packages=GenericHIPS:1.4.0&installed_packages=GenericTPU:1.4.0&installed_packages=GenericPVA:1.4.0&installed_packages=IMADE3DJellyBOXPETG:1.0.1&installed_packages=UltimakerCPE:1.4.0&installed_packages=GenericCPE:1.4.0&installed_packages=GenericGFFCPE:1.4.0&installed_packages=GenericCFFCPE:1.4.0&installed_packages=Filo3DPLA:1.0.1&installed_packages=OctofiberPLA:1.0.1&installed_packages=UltimakerPVA:1.4.0&installed_packages=UltimakerNylon:1.4.0&installed_packages=GenericPP:1.4.0&installed_packages=PolyWoodPLA:1.0.1&installed_packages=UltimakerTPU:1.4.0&installed_packages=VertexDeltaTPU:1.4.0&installed_packages=GenericToughPLA:1.4.0&installed_packages=GenericPC:1.4.0&installed_packages=GenericABS:1.4.0&installed_packages=UltimakerPP:1.4.0&installed_packages=FABtotumPLA:1.4.0&installed_packages=GenericNylon:1.4.0&installed_packages=GenericPLA:1.4.0
+2024-01-07 14:19:20,139 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin Marketplace 1.0.0
+2024-01-07 14:19:20,154 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin ModelChecker 1.0.1
+2024-01-07 14:19:20,167 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin MonitorStage 1.0.1
+2024-01-07 14:19:20,187 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin PerObjectSettingsTool 1.0.1
+2024-01-07 14:19:20,203 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin PostProcessingPlugin 2.2.1
+2024-01-07 14:19:20,216 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin PrepareStage 1.0.1
+2024-01-07 14:19:20,227 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin PreviewStage 1.0.1
+2024-01-07 14:19:20,245 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin RemovableDriveOutputDevice 1.0.1
+2024-01-07 14:19:20,270 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SimulationView 1.0.1
+2024-01-07 14:19:20,282 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SliceInfoPlugin 1.0.1
+2024-01-07 14:19:20,297 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SolidView 1.0.1
+2024-01-07 14:19:20,309 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SupportEraser 1.0.1
+2024-01-07 14:19:20,323 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin TrimeshReader 1.0.0
+2024-01-07 14:19:20,339 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin UFPReader 1.0.0
+2024-01-07 14:19:20,354 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin UFPWriter 1.0.1
+2024-01-07 14:19:20,368 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin UltimakerMachineActions 1.0.1
+2024-01-07 14:19:20,580 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin UM3NetworkPrinting 2.0.0
+2024-01-07 14:19:20,618 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin USBPrinting 1.0.2
+2024-01-07 14:19:20,643 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade21to22 1.0.1
+2024-01-07 14:19:20,655 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade22to24 1.0.1
+2024-01-07 14:19:20,669 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade25to26 1.0.1
+2024-01-07 14:19:20,680 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade26to27 1.0.1
+2024-01-07 14:19:20,692 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade27to30 1.0.1
+2024-01-07 14:19:20,703 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade30to31 1.0.1
+2024-01-07 14:19:20,715 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade32to33 1.0.1
+2024-01-07 14:19:20,725 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade33to34 1.0.1
+2024-01-07 14:19:20,737 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade34to35 1.0.1
+2024-01-07 14:19:20,747 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade35to40 1.0.0
+2024-01-07 14:19:20,758 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade40to41 1.0.1
+2024-01-07 14:19:20,769 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade411to412 1.0.0
+2024-01-07 14:19:20,780 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade413to50 1.0.0
+2024-01-07 14:19:20,793 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade41to42 1.0.0
+2024-01-07 14:19:20,804 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade42to43 1.0.0
+2024-01-07 14:19:20,815 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade43to44 1.0.0
+2024-01-07 14:19:20,830 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade44to45 1.0.0
+2024-01-07 14:19:20,842 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade45to46 1.0.0
+2024-01-07 14:19:20,858 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade460to462 1.0.0
+2024-01-07 14:19:20,870 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade462to47 1.0.0
+2024-01-07 14:19:20,881 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade47to48 1.0.0
+2024-01-07 14:19:20,893 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade48to49 1.0.0
+2024-01-07 14:19:20,904 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade49to410 1.0.0
+2024-01-07 14:19:20,917 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade52to53 1.0.0
+2024-01-07 14:19:20,927 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade53to54 1.0.0
+2024-01-07 14:19:20,938 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade54to55 1.0.0
+2024-01-07 14:19:20,955 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin X3DReader 1.0.1
+2024-01-07 14:19:20,979 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin XmlMaterialProfile 1.0.1
+2024-01-07 14:19:20,991 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin XRayView 1.0.1
+2024-01-07 14:19:21,055 - DEBUG - [MainThread] CalibrationShapes.CalibrationShapes.__init__ [154]: Info CuraVersion --> 5.6.0
+2024-01-07 14:19:21,058 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CalibrationShapes 2.2.2
+2024-01-07 14:19:21,068 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin LinearAdvanceSettingPlugin 3.6.1
+2024-01-07 14:19:21,080 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin MeasureTool 1.2.0
+2024-01-07 14:19:21,233 - WARNING - [MainThread] UM.Settings.SettingDefinition._deserialize_dict [668]: Unrecognised property comment in setting _plugin__curaenginegradualflow__0_1_0__max_flow_acceleration
+2024-01-07 14:19:21,263 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SettingsGuide2 2.9.2
+2024-01-07 14:19:21,268 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [454]: Loading all plugins took 2.515312671661377 seconds
+2024-01-07 14:19:21,286 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [163]: Looking for old configuration files to upgrade.
+2024-01-07 14:19:21,296 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\Creality+Ender-3+Max+Neo_settings.inst.cfg] with type [definition_changes] and source version [4000021]
+2024-01-07 14:19:21,297 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0+%232_settings.inst.cfg] with type [definition_changes] and source version [4000021]
+2024-01-07 14:19:21,303 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0+%232.extruder.cfg] with type [extruder_train] and source version [5000021]
+2024-01-07 14:19:21,309 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\Creality+Ender-3+Max+Neo.global.cfg] with type [machine_stack] and source version [5000021]
+2024-01-07 14:19:21,324 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\cura.cfg] with type [preferences] and source version [7000021]
+2024-01-07 14:19:21,434 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_0.5_-_walls+%232.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,435 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_0.5_-_walls+%233.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,436 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_0.5_-_walls.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,437 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_alttab_n0.6+%232.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,438 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_alttab_n0.6+%233.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,439 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_alttab_n0.6+%234.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,440 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_alttab_n0.6.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,440 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_alttab_n0.6_-_speed.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,441 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_alttab_n0.6_-_speedmin.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,442 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_alttab_n0.6_-_testwalls.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,443 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_low_quality_%232.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,444 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_standard_quality_%232.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,445 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_standard_quality_%233_%280.5mm%29.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,446 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_standard_quality_%235_-_walls.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,446 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_standard_quality_+%232.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,447 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_toughpla_n0.5_l0.4_-_walls.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,448 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_toughpla_n0.6_-_infill-only.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,449 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_toughpla_n0.6_-_max.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,450 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0_%232_toughpla_n0.6_l0.32_walls.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,451 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_0.5_-_walls+%232.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,452 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_0.5_-_walls+%233.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,452 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_0.5_-_walls.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,453 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_alttab_n0.6+%232.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,453 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_alttab_n0.6+%233.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,454 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_alttab_n0.6+%234.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,455 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_alttab_n0.6.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,456 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_alttab_n0.6_-_speed.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,456 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_alttab_n0.6_-_speedmin.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,457 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_alttab_n0.6_-_testwalls.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,458 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_low_quality_%232.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,458 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_standard_quality_%232.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,459 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_standard_quality_%233_%280.5mm%29.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,460 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_standard_quality_%235_-_walls.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,460 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_standard_quality_+%232.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,461 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_toughpla_n0.5_l0.4_-_walls.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,462 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_toughpla_n0.6_-_infill-only.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,462 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_toughpla_n0.6_-_max.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,463 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_ender3max_toughpla_n0.6_l0.32_walls.inst.cfg] with type [quality_changes] and source version [4000021]
+2024-01-07 14:19:21,474 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\Creality+Ender-3+Max+Neo_user.inst.cfg] with type [user] and source version [4000021]
+2024-01-07 14:19:21,475 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [337]: Create upgrade task for configuration file [.\creality_base_extruder_0+%232_user.inst.cfg] with type [user] and source version [4000021]
+2024-01-07 14:19:21,481 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\Creality+Ender-3+Max+Neo_settings.inst.cfg to version 4000022.
+2024-01-07 14:19:21,487 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0+%232_settings.inst.cfg to version 4000022.
+2024-01-07 14:19:21,493 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0+%232.extruder.cfg to version 6000022.
+2024-01-07 14:19:21,499 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\Creality+Ender-3+Max+Neo.global.cfg to version 6000022.
+2024-01-07 14:19:21,504 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\cura.cfg to version 7000022.
+2024-01-07 14:19:21,509 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_0.5_-_walls+%232.inst.cfg to version 4000022.
+2024-01-07 14:19:21,514 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_0.5_-_walls+%233.inst.cfg to version 4000022.
+2024-01-07 14:19:21,518 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_0.5_-_walls.inst.cfg to version 4000022.
+2024-01-07 14:19:21,523 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_alttab_n0.6+%232.inst.cfg to version 4000022.
+2024-01-07 14:19:21,527 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_alttab_n0.6+%233.inst.cfg to version 4000022.
+2024-01-07 14:19:21,533 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_alttab_n0.6+%234.inst.cfg to version 4000022.
+2024-01-07 14:19:21,538 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_alttab_n0.6.inst.cfg to version 4000022.
+2024-01-07 14:19:21,543 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_alttab_n0.6_-_speed.inst.cfg to version 4000022.
+2024-01-07 14:19:21,547 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_alttab_n0.6_-_speedmin.inst.cfg to version 4000022.
+2024-01-07 14:19:21,552 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_alttab_n0.6_-_testwalls.inst.cfg to version 4000022.
+2024-01-07 14:19:21,557 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_low_quality_%232.inst.cfg to version 4000022.
+2024-01-07 14:19:21,561 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_standard_quality_%232.inst.cfg to version 4000022.
+2024-01-07 14:19:21,566 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_standard_quality_%233_%280.5mm%29.inst.cfg to version 4000022.
+2024-01-07 14:19:21,571 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_standard_quality_%235_-_walls.inst.cfg to version 4000022.
+2024-01-07 14:19:21,576 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_standard_quality_+%232.inst.cfg to version 4000022.
+2024-01-07 14:19:21,580 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_toughpla_n0.5_l0.4_-_walls.inst.cfg to version 4000022.
+2024-01-07 14:19:21,585 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_toughpla_n0.6_-_infill-only.inst.cfg to version 4000022.
+2024-01-07 14:19:21,590 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_toughpla_n0.6_-_max.inst.cfg to version 4000022.
+2024-01-07 14:19:21,594 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0_%232_toughpla_n0.6_l0.32_walls.inst.cfg to version 4000022.
+2024-01-07 14:19:21,600 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_0.5_-_walls+%232.inst.cfg to version 4000022.
+2024-01-07 14:19:21,605 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_0.5_-_walls+%233.inst.cfg to version 4000022.
+2024-01-07 14:19:21,610 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_0.5_-_walls.inst.cfg to version 4000022.
+2024-01-07 14:19:21,615 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_alttab_n0.6+%232.inst.cfg to version 4000022.
+2024-01-07 14:19:21,620 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_alttab_n0.6+%233.inst.cfg to version 4000022.
+2024-01-07 14:19:21,625 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_alttab_n0.6+%234.inst.cfg to version 4000022.
+2024-01-07 14:19:21,630 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_alttab_n0.6.inst.cfg to version 4000022.
+2024-01-07 14:19:21,635 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_alttab_n0.6_-_speed.inst.cfg to version 4000022.
+2024-01-07 14:19:21,640 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_alttab_n0.6_-_speedmin.inst.cfg to version 4000022.
+2024-01-07 14:19:21,646 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_alttab_n0.6_-_testwalls.inst.cfg to version 4000022.
+2024-01-07 14:19:21,650 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_low_quality_%232.inst.cfg to version 4000022.
+2024-01-07 14:19:21,655 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_standard_quality_%232.inst.cfg to version 4000022.
+2024-01-07 14:19:21,661 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_standard_quality_%233_%280.5mm%29.inst.cfg to version 4000022.
+2024-01-07 14:19:21,666 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_standard_quality_%235_-_walls.inst.cfg to version 4000022.
+2024-01-07 14:19:21,671 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_standard_quality_+%232.inst.cfg to version 4000022.
+2024-01-07 14:19:21,676 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_toughpla_n0.5_l0.4_-_walls.inst.cfg to version 4000022.
+2024-01-07 14:19:21,681 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_toughpla_n0.6_-_infill-only.inst.cfg to version 4000022.
+2024-01-07 14:19:21,686 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_toughpla_n0.6_-_max.inst.cfg to version 4000022.
+2024-01-07 14:19:21,691 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_ender3max_toughpla_n0.6_l0.32_walls.inst.cfg to version 4000022.
+2024-01-07 14:19:21,696 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\Creality+Ender-3+Max+Neo_user.inst.cfg to version 4000022.
+2024-01-07 14:19:21,701 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [423]: Upgraded .\creality_base_extruder_0+%232_user.inst.cfg to version 4000022.
+2024-01-07 14:19:21,701 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [177]: Checking and performing updates took 0.41994357109069824
+2024-01-07 14:19:21,710 - INFO - [MainThread] UM.Qt.QtApplication.startSplashWindowPhase [266]: Completed loading preferences.
+2024-01-07 14:19:21,747 - INFO - [MainThread] UM.Qt.QtApplication.startSplashWindowPhase [304]: Created system tray icon.
+2024-01-07 14:19:34,442 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [565]: Loading metadata into container registry took 12.656023502349854 seconds
+2024-01-07 14:19:34,457 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [142]: Selected build plate: 0
+2024-01-07 14:19:34,460 - INFO - [MainThread] cura.CuraApplication._log_hardware_info [934]: System: Windows
+2024-01-07 14:19:34,461 - INFO - [MainThread] cura.CuraApplication._log_hardware_info [935]: Release: 10
+2024-01-07 14:19:34,461 - INFO - [MainThread] cura.CuraApplication._log_hardware_info [936]: Version: 10.0.22621
+2024-01-07 14:19:34,461 - INFO - [MainThread] cura.CuraApplication._log_hardware_info [937]: Processor name: Intel64 Family 6 Model 167 Stepping 1, GenuineIntel
+2024-01-07 14:19:34,462 - INFO - [MainThread] cura.CuraApplication._log_hardware_info [938]: CPU Cores: 16
+2024-01-07 14:19:34,462 - DEBUG - [MainThread] cura.CuraApplication.run [862]: Using conan dependencies: {'boost': {'version': '1.82.0', 'revision': '902463606663219fc8c6d2102f1b8c6a'}, 'fmt': {'version': '9.0.0', 'revision': 'f034bfca2ec6697aa58abd59923ded26'}, 'curaengine_grpc_definitions': {'version': '0.1.0', 'revision': '91fe2866ddff1ed1f742b15c7448851e'}, 'zlib': {'version': '1.2.13', 'revision': '13c96f538b52e1600c40b88994de240f'}, 'pyarcus': {'version': '5.3.0', 'revision': '10e23195a57fca9807f6a5a7bb075c865de60059'}, 'dulcificum': {'version': '0.1.0-beta.1', 'revision': '88bb7474acc9aa9e5be49a64cf9f7cea'}, 'curaengine': {'version': '5.6.0', 'revision': '68a46e2ad3486c81c4d4b05f7ad95adb'}, 'pysavitar': {'version': '5.3.0', 'revision': '2527fe9a8d353cf599bf8102c4a60cbc7b3a0d1c'}, 'pynest2d': {'version': '5.3.0', 'revision': 'a44ffd40f4ad593091a9066589c0a1cf240275d5'}, 'curaengine_plugin_gradual_flow': {'version': '0.1.0', 'revision': '445f27841b8875113dc9cc996771a8d0'}, 'uranium': {'version': '5.6.0', 'revision': 'a492de0db7da2c49f7cc1b909ba7faf9'}, 'cura_binary_data': {'version': '5.6.0', 'revision': '92dc4180c0892752da8500190702cee5'}, 'cpython': {'version': '3.10.4', 'revision': 'b32bdcfcf86f4dca328f12e1faf40db7'}, 'fdm_materials': {'version': '5.6.0', 'revision': 'baa49624979d1771461427e308f9f506'}, 'protobuf': {'version': '3.21.9', 'revision': '515ceb0a1653cf84363d9968b812d6be'}, 'asio-grpc': {'version': '2.6.0', 'revision': 'a53a448bd89332863dd7dc497c1190f7'}, 'grpc': {'version': '1.50.1', 'revision': '41f20949b76f0ed2b816426375f0b52a'}, 'openssl': {'version': '1.1.1l', 'revision': 'de73a8aad9d5a14da8ed43b40592195a'}, 'arcus': {'version': '5.3.0', 'revision': 'c93fa068cb5b616a99e130bd4c0b11a3'}, 'nlohmann_json': {'version': '3.11.2', 'revision': 'a35423bb6e1eb8f931423557e282c7ed'}, 'range-v3': {'version': '0.12.0', 'revision': '4c05d91d7b40e6b91b44b5345ac64408'}, 'spdlog': {'version': '1.10.0', 'revision': '428e43acac34a509f04bb8f1502e75d2'}, 'ctre': {'version': '3.7.2', 'revision': '86bd3592feebcdafd2ab7b8a1aad0c80'}, 'pybind11': {'version': '2.10.4', 'revision': 'dd44c80a5ed6a2ef11194380daae1248'}, 'clipper': {'version': '6.4.2', 'revision': '4a99df8ff37476a0108cabee338a3cf2'}, 'rapidjson': {'version': '1.1.0', 'revision': '219bf1ea2756b263575da26288753262'}, 'stb': {'version': '20200203', 'revision': 'cba8fa43f7a0ea5389896744664823c9'}, 'scripta': {'version': '0.1.0', 'revision': '49f6bea1a1bed833bfdfe695525044d7'}, 'neargye-semver': {'version': '0.3.0', 'revision': '062aee0a7bf6c6aff702580ec695544a'}, 'savitar': {'version': '5.3.0', 'revision': 'e66e4e8f69e8764411d01b09140d04de8552552b'}, 'nest2d': {'version': '5.3.0', 'revision': '0e37a675ea212360daf2794541ad2c8b'}, 'docopt.cpp': {'version': '0.6.3', 'revision': '7937c6a7f2f8bccd86f67d25837f9a39'}, 'expat': {'version': '2.4.1', 'revision': 'a36c94ae11100f2e3259a9edd4f77055'}, 'libffi': {'version': '3.2.1', 'revision': '33b3eff20f1be5d569235ae100266729'}, 'mpdecimal': {'version': '2.5.0', 'revision': 'd8aaabf46cfa93efaadfe66733885102'}, 'bzip2': {'version': '1.0.8', 'revision': 'b056f852bd2d5af96fc7171aadfd6c0b'}, 'sqlite3': {'version': '3.36.0', 'revision': 'd42a67cd9049135c9d299f26809c4be1'}, 'tk': {'version': '8.6.10', 'revision': '52dd820e70534d4342fe6caec84beaff'}, 'xz_utils': {'version': '5.2.5', 'revision': 'dd8565c00d13a3a6fb2f01214f73a076'}, 'abseil': {'version': '20220623.0', 'revision': 'e182627de3e5bda7220302d5f69a37cd'}, 'c-ares': {'version': '1.19.0', 'revision': '3d781213ee5d4736b3e5a0a040c22a92'}, 're2': {'version': '20230301', 'revision': '94b1b4e643b4ea7878a1c75073a697a5'}, 'googleapis': {'version': 'cci.20221108', 'revision': '18441b49a9f5cf553d0d85b67c926df0'}, 'grpc-proto': {'version': 'cci.20220627', 'revision': '3ad14e3ffdae516b4da2407d5f23c71d'}, 'pugixml': {'version': '1.12.1', 'revision': '5a39f82651eba3e7d6197903a3202e21'}, 'nlopt': {'version': '2.7.0', 'revision': 'd928ab39fe3f6d91120c738b0de4751c'}, 'tcl': {'version': '8.6.10', 'revision': 'aec77174134a121aaa59321674d1e893'}}
+2024-01-07 14:19:34,463 - DEBUG - [MainThread] cura.CuraApplication.run [863]: Using python dependencies: {'certifi': {'version': '2023.11.17'}, 'setuptools': {'version': '65.5.0'}, 'pip': {'version': '23.3.1'}, 'packaging': {'version': '23.2'}, 'sip': {'version': '6.7.12'}, 'pyyaml': {'version': '6.0.1'}, 'tqdm': {'version': '4.66.1'}, 'ply': {'version': '3.11'}, 'idna': {'version': '3.6'}, 'charset-normalizer': {'version': '3.3.2'}, 'jinja2': {'version': '3.1.2'}, 'requests': {'version': '2.31.0'}, 'pygments': {'version': '2.17.2'}, 'python-dateutil': {'version': '2.8.2'}, 'pyjwt': {'version': '2.8.0'}, 'markupsafe': {'version': '2.1.3'}, 'tomli': {'version': '2.0.1'}, 'conan': {'version': '1.62.0'}, 'urllib3': {'version': '1.26.18'}, 'patch-ng': {'version': '1.17.4'}, 'six': {'version': '1.16.0'}, 'pluginbase': {'version': '1.0.1'}, 'fasteners': {'version': '0.19'}, 'bottle': {'version': '0.12.25'}, 'node-semver': {'version': '0.6.1'}, 'colorama': {'version': '0.4.6'}}
+2024-01-07 14:19:34,463 - INFO - [MainThread] cura.CuraApplication.run [865]: Initializing machine error checker
+2024-01-07 14:19:34,687 - WARNING - [MainThread] UM.Settings.SettingDefinition._deserialize_dict [668]: Unrecognised property comment in setting _plugin__curaenginegradualflow__0_1_0__max_flow_acceleration
+2024-01-07 14:19:34,693 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [74]: Default machine actions added for machine definition [creality_ender3max]
+2024-01-07 14:19:34,852 - WARNING - [MainThread] UM.Settings.SettingDefinition._deserialize_dict [668]: Unrecognised property comment in setting _plugin__curaenginegradualflow__0_1_0__max_flow_acceleration
+2024-01-07 14:19:34,886 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [190]: Extruder[creality_base_extruder_0 #2] added to [Creality Ender-3 Max Neo] at position [0]
+2024-01-07 14:19:34,887 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [79]: No machine with name Creality Ender-3 Max in list of firmware to check.
+2024-01-07 14:19:35,348 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [120]: Adding container tree for creality_ender3max took 0.45505285263061523 seconds.
+2024-01-07 14:19:35,362 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: ChangeAtZ
+2024-01-07 14:19:35,365 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: ColorMix
+2024-01-07 14:19:35,369 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: CreateThumbnail
+2024-01-07 14:19:35,372 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2024-01-07 14:19:35,375 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: DisplayProgressOnLCD
+2024-01-07 14:19:35,379 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: FilamentChange
+2024-01-07 14:19:35,382 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: InsertAtLayerChange
+2024-01-07 14:19:35,390 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: LimitXYAccelJerk
+2024-01-07 14:19:35,395 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: PauseAtHeight
+2024-01-07 14:19:35,398 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: RetractContinue
+2024-01-07 14:19:35,401 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: SearchAndReplace
+2024-01-07 14:19:35,407 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: Stretch
+2024-01-07 14:19:35,410 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: TimeLapse
+2024-01-07 14:19:35,413 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: UsePreviousProbeMeasurements
+2024-01-07 14:19:35,415 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: InputShaping
+2024-01-07 14:19:35,419 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: DisplayPrintInfosOnLCD
+2024-01-07 14:19:35,421 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: FlowTower
+2024-01-07 14:19:35,426 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: GCodeDocumentation
+2024-01-07 14:19:35,427 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: MaxFlow
+2024-01-07 14:19:35,430 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: RetractTower
+2024-01-07 14:19:35,431 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: SpeedTower
+2024-01-07 14:19:35,433 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: TempFanTower
+2024-01-07 14:19:35,577 - WARNING - [MainThread] UM.Settings.SettingDefinition._deserialize_dict [668]: Unrecognised property comment in setting _plugin__curaenginegradualflow__0_1_0__max_flow_acceleration
+2024-01-07 14:19:35,588 - INFO - [MainThread] cura.CuraApplication.run [870]: Initializing machine manager
+2024-01-07 14:19:35,589 - INFO - [MainThread] cura.CuraApplication.run [875]: Initializing container manager
+2024-01-07 14:19:35,597 - DEBUG - [JobQueueWorker [0]] UM.Mesh.MeshData.calculateNormalsFromVertices [561]: Calculating normals took 0.0 seconds
+2024-01-07 14:19:35,598 - DEBUG - [JobQueueWorker [0]] STLReader.STLReader._read [68]: Loaded a mesh with 19416 vertices
+2024-01-07 14:19:35,610 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.loadAuthDataFromPreferences [258]: Attempting to load the auth data from preferences.
+2024-01-07 14:19:35,613 - WARNING - [MainThread] UM.OutputDevice.OutputDeviceManager.removeOutputDevice [235]: Could not find output device with id digital_factory to remove
+2024-01-07 14:19:35,651 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2024-01-07 14:19:35,691 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [164]: New error check scheduled.
+2024-01-07 14:19:35,889 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [221]: Error check finished, result = False, time = 0.20s
+2024-01-07 14:19:35,904 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [188]: Loading theme file: C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\themes\cura-light\theme.json
+2024-01-07 14:19:35,979 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [323]: Loaded theme C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\themes\cura-light
+2024-01-07 14:19:35,979 - INFO - [MainThread] UM.Qt.Bindings.Theme.load [324]: System's em size is 13px.
+2024-01-07 14:19:37,290 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [355]: Creating post processing plugin view.
+2024-01-07 14:19:37,464 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [365]: Post processing view created.
+2024-01-07 14:19:37,622 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [444]: file:///C:/Program Files/UltiMaker Cura 5.6.0/share/cura/resources/qml/Settings/SettingView.qml:204:16: QML SettingDefinitionsModel: Binding loop detected for property "expanded"
+2024-01-07 14:19:38,074 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2024-01-07 14:19:38,606 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [586]: Calculating normals took 0.010998010635375977 seconds
+2024-01-07 14:19:38,611 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2024-01-07 14:19:38,784 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2024-01-07 14:19:39,176 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2024-01-07 14:19:39,258 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [118]: Creating model checker view.
+2024-01-07 14:19:39,269 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [127]: Model checker view created.
+2024-01-07 14:19:39,269 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [76]: Creating dialog [MoreInfoWindow.qml]
+2024-01-07 14:19:39,629 - DEBUG - [JobQueueWorker [2]] cura.Machines.ContainerTree.run [174]: Started background loading of MachineNodes
+2024-01-07 14:19:39,630 - DEBUG - [MainThread] cura.CuraApplication.run [916]: Booting Cura took 34.282546281814575 seconds
+2024-01-07 14:19:39,643 - DEBUG - [MainThread] cura.Machines.Models.IntentSelectionModel._update [74]: Updating IntentSelectionModel.
+2024-01-07 14:19:39,711 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2024-01-07 14:19:39,776 - DEBUG - [MainThread] cura.Machines.Models.IntentSelectionModel._update [74]: Updating IntentSelectionModel.
+2024-01-07 14:19:39,778 - DEBUG - [MainThread] cura.Machines.Models.IntentSelectionModel._update [74]: Updating IntentSelectionModel.
+2024-01-07 14:19:39,784 - DEBUG - [MainThread] cura.Machines.Models.IntentSelectionModel._update [74]: Updating IntentSelectionModel.
+2024-01-07 14:19:39,998 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2024-01-07 14:19:40,134 - DEBUG - [JobQueueWorker [2]] cura.Machines.ContainerTree.run [185]: All MachineNode loading completed
+2024-01-07 14:19:41,008 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [121]: Initialized OpenGL subsystems.
+2024-01-07 14:19:41,010 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [122]: OpenGL Version:  4.1.0 NVIDIA 546.29
+2024-01-07 14:19:41,011 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [123]: OpenGL Vendor:   NVIDIA Corporation
+2024-01-07 14:19:41,012 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [124]: OpenGL Renderer: NVIDIA GeForce RTX 3070 Ti/PCIe/SSE2
+2024-01-07 14:19:41,013 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [125]: GLSL Version:    4.0.0
+2024-01-07 14:19:41,039 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [211]: Support for Vertex Array Objects: True
+2024-01-07 14:19:41,045 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\default.shader]...
+2024-01-07 14:19:41,050 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\selection.shader]...
+2024-01-07 14:19:41,054 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\select_face.shader]...
+2024-01-07 14:19:41,059 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\default.shader]...
+2024-01-07 14:19:41,063 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\composite.shader]...
+2024-01-07 14:19:41,072 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\overhang.shader]...
+2024-01-07 14:19:41,078 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\striped.shader]...
+2024-01-07 14:19:41,084 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\transparent_object.shader]...
+2024-01-07 14:19:41,089 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\striped.shader]...
+2024-01-07 14:19:41,092 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\xray.shader]...
+2024-01-07 14:19:41,098 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\xray_composite.shader]...
+2024-01-07 14:19:41,107 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\default.shader]...
+2024-01-07 14:19:41,112 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\grid.shader]...
+2024-01-07 14:19:41,117 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\platform.shader]...
+2024-01-07 14:19:41,130 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\xray.shader]...
+2024-01-07 14:19:41,898 - INFO - [MainThread] UM.Qt.QtApplication.__init__ [89]: Adding QT6 plugin path: C:\Program Files\UltiMaker Cura 5.6.0\PyQt6\plugins
+2024-01-07 14:19:41,898 - INFO - [MainThread] UM.Qt.QtApplication.__init__ [99]: Adding QT5 plugin path: C:\Program Files\UltiMaker Cura 5.6.0\PyQt6\plugins
+2024-01-07 14:19:41,898 - DEBUG - [MainThread] UM.Application.initialize [163]: Initializing UltiMaker Cura
+2024-01-07 14:19:41,899 - DEBUG - [MainThread] UM.Application.initialize [164]: App Version 5.6.0
+2024-01-07 14:19:41,899 - DEBUG - [MainThread] UM.Application.initialize [165]: Api Version 8.6.0
+2024-01-07 14:19:41,899 - DEBUG - [MainThread] UM.Application.initialize [166]: Build type None
+2024-01-07 14:19:41,899 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\lib\uranium must be a folder.
+2024-01-07 14:19:41,899 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\lib64\uranium must be a folder.
+2024-01-07 14:19:41,900 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\lib32\uranium must be a folder.
+2024-01-07 14:19:41,900 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\UltiMaker Cura 5.6.0\plugins must be a folder.
+2024-01-07 14:19:41,900 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\Resources\uranium\plugins must be a folder.
+2024-01-07 14:19:41,900 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\Resources\cura\plugins must be a folder.
+2024-01-07 14:19:41,900 - DEBUG - [MainThread] UM.Resources.__initializeStoragePaths [481]: Initializing storage paths
+2024-01-07 14:19:41,901 - DEBUG - [MainThread] UM.Resources.__initializeStoragePaths [491]: Config storage path is C:\Users\yeozx\AppData\Roaming\cura\5.6
+2024-01-07 14:19:41,901 - DEBUG - [MainThread] UM.Resources.__initializeStoragePaths [499]: Data storage path is C:\Users\yeozx\AppData\Roaming\cura\5.6
+2024-01-07 14:19:41,901 - DEBUG - [MainThread] UM.Resources.__initializeStoragePaths [511]: Cache storage path is C:\Users\yeozx\AppData\Local\cura\5.6\cache
+2024-01-07 14:19:41,901 - INFO - [MainThread] UM.PackageManager.__init__ [56]: Found bundled packages JSON file: C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\bundled_packages\bundled_CuraEngineGradualFlow.json
+2024-01-07 14:19:41,901 - INFO - [MainThread] UM.PackageManager.__init__ [56]: Found bundled packages JSON file: C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\bundled_packages\cura.json
+2024-01-07 14:19:41,902 - INFO - [MainThread] UM.PackageManager.__init__ [56]: Found bundled packages JSON file: C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\bundled_packages\uranium.json
+2024-01-07 14:19:41,902 - DEBUG - [MainThread] UM.View.GL.OpenGLContext.detectBestOpenGLVersion [124]: Trying OpenGL context 4.1...
+2024-01-07 14:19:41,902 - DEBUG - [MainThread] UM.View.GL.OpenGLContext.detectBestOpenGLVersion [132]: Yay, we got at least OpenGL 4.1 core: 4.1 Core profile
+2024-01-07 14:19:41,902 - DEBUG - [MainThread] UM.Qt.QtApplication.initialize [192]: Detected most suitable OpenGL context version: 4.1 Core profile
+2024-01-07 14:19:41,902 - INFO - [MainThread] UM.Qt.QtApplication.initialize [199]: Initializing job queue ...
+2024-01-07 14:19:41,903 - INFO - [MainThread] UM.Qt.QtApplication.initialize [203]: Initializing version upgrade manager ...
+2024-01-07 14:19:41,903 - INFO - [MainThread] UM.PackageManager._loadManagementData [174]: Loaded bundled packages data from C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\bundled_packages\bundled_CuraEngineGradualFlow.json
+2024-01-07 14:19:41,903 - INFO - [MainThread] UM.PackageManager._loadManagementData [174]: Loaded bundled packages data from C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\bundled_packages\cura.json
+2024-01-07 14:19:41,903 - INFO - [MainThread] UM.PackageManager._loadManagementData [174]: Loaded bundled packages data from C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\bundled_packages\uranium.json
+2024-01-07 14:19:41,903 - INFO - [MainThread] UM.PackageManager._loadManagementData [201]: Loaded user packages management file from C:\Users\yeozx\AppData\Roaming\cura\5.6\packages.json
+2024-01-07 14:19:41,904 - INFO - [MainThread] UM.PackageManager._removeAllScheduledPackages [280]: Attempting to remove the following scheduled packages: - 
+2024-01-07 14:19:41,904 - INFO - [MainThread] UM.PluginRegistry.initializeBeforePluginsAreLoaded [136]: Loading plugin configuration file 'C:\Users\yeozx\AppData\Roaming\cura\5.6\plugins.json'
+2024-01-07 14:19:41,904 - WARNING - [MainThread] UM.PluginRegistry.addPluginLocation [203]: Plugin location C:\Program Files\lib\cura must be a folder.
+2024-01-07 14:19:41,906 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin FileLogger 1.0.1
+2024-01-07 14:19:41,916 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin LocalContainerProvider 1.0.1
+2024-01-07 14:19:41,930 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin LocalFileOutputDevice 1.0.1
+2024-01-07 14:19:41,939 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CameraTool 1.0.1
+2024-01-07 14:19:41,948 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin MirrorTool 1.0.1
+2024-01-07 14:19:41,960 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin RotateTool 1.0.1
+2024-01-07 14:19:41,972 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin ScaleTool 1.0.1
+2024-01-07 14:19:41,979 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SelectionTool 1.0.1
+2024-01-07 14:19:41,990 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin TranslateTool 1.0.1
+2024-01-07 14:19:42,017 - INFO - [MainThread] UpdateChecker.UpdateChecker.checkNewVersion [69]: Checking for new version
+2024-01-07 14:19:42,021 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin UpdateChecker 1.0.1
+2024-01-07 14:19:42,052 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SimpleView 1.0.1
+2024-01-07 14:19:42,087 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin 3MFReader 1.0.1
+2024-01-07 14:19:42,100 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin 3MFWriter 1.0.1
+2024-01-07 14:19:42,340 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin AMFReader 1.0.0
+2024-01-07 14:19:42,357 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CuraDrive 1.2.0
+2024-01-07 14:19:42,361 - INFO - [JobQueueWorker [1]] SettingsGuide2.CuraSettingsGuide.load_all [181]: Finished loading Settings Guide articles.
+2024-01-07 14:19:42,540 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.__init__ [108]: Found CuraEngine at: C:\Program Files\UltiMaker Cura 5.6.0\CuraEngine.exe
+2024-01-07 14:19:42,543 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CuraEngineBackend 1.0.1
+2024-01-07 14:19:42,547 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [232]: Socket state changed to Listening
+2024-01-07 14:19:42,558 - INFO - [MainThread] UM.Backend.Backend.startEngine [96]: Started engine process: C:\Program Files\UltiMaker Cura 5.6.0\CuraEngine.exe
+2024-01-07 14:19:42,559 - DEBUG - [MainThread] UM.Backend.Backend._backendLog [140]: [Backend] Calling engine with: ['C:\\Program Files\\UltiMaker Cura 5.6.0\\CuraEngine.exe', 'connect', '127.0.0.1:49674', '']
+2024-01-07 14:19:42,571 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CuraEngineGradualFlow 0.1.0
+2024-01-07 14:19:42,580 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CuraProfileReader 1.0.1
+2024-01-07 14:19:42,589 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CuraProfileWriter 1.0.1
+2024-01-07 14:19:42,656 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin DigitalLibrary 1.1.0
+2024-01-07 14:19:42,657 - DEBUG - [EngineOutputThread] UM.Backend.Backend._backendLog [140]: [Backend] [2024-01-07 14:19:42.656] [info] Connecting to 127.0.0.1:49674
+2024-01-07 14:19:42,669 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin FirmwareUpdateChecker 1.0.1
+2024-01-07 14:19:42,670 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [236]: Socket state changed to Connected
+2024-01-07 14:19:42,670 - DEBUG - [MainThread] UM.Backend.Backend._onSocketStateChanged [225]: Backend connected on port 49674
+2024-01-07 14:19:42,679 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin FirmwareUpdater 1.0.1
+2024-01-07 14:19:42,686 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin GCodeGzReader 1.0.1
+2024-01-07 14:19:42,694 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin GCodeGzWriter 1.0.1
+2024-01-07 14:19:42,702 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin GCodeProfileReader 1.0.1
+2024-01-07 14:19:42,717 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin GCodeReader 1.0.1
+2024-01-07 14:19:42,726 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin GCodeWriter 1.0.1
+2024-01-07 14:19:42,737 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin ImageReader 1.0.1
+2024-01-07 14:19:42,744 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin LegacyProfileReader 1.0.1
+2024-01-07 14:19:42,752 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin MachineSettingsAction 1.0.1
+2024-01-07 14:19:42,761 - DEBUG - [EngineOutputThread] UM.Backend.Backend._backendLog [140]: [Backend] [2024-01-07 14:19:42.762] [info] Connected to 127.0.0.1:49674
+2024-01-07 14:19:42,778 - INFO - [MainThread] MakerbotWriter.MakerbotWriter.__init__ [34]: Using PyDulcificum: 0.1.0-beta.1
+2024-01-07 14:19:42,780 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin MakerbotWriter 0.1.0
+2024-01-07 14:19:42,812 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [145]: No auth data to retrieve the access_token from
+2024-01-07 14:19:42,813 - DEBUG - [MainThread] cura.UltimakerCloud.UltimakerCloudScope.requestHook [30]: User is not logged in for Cloud API request to https://api.ultimaker.com/cura-packages/v1/cura/v8.6.0/packages/package-updates?installed_packages=VersionUpgrade52to53:1.0.0&installed_packages=CuraProfileReader:1.0.1&installed_packages=SupportEraser:1.0.1&installed_packages=VersionUpgrade462to47:1.0.0&installed_packages=GCodeGzWriter:1.0.1&installed_packages=3MFReader:1.0.1&installed_packages=MirrorTool:1.0.1&installed_packages=VersionUpgrade47to48:1.0.0&installed_packages=ImageReader:1.0.1&installed_packages=VersionUpgrade411to412:1.0.0&installed_packages=ScaleTool:1.0.1&installed_packages=FirmwareUpdateChecker:1.0.1&installed_packages=CalibrationShapes:2.2.2&installed_packages=USBPrinting:1.0.2&installed_packages=PerObjectSettingsTool:1.0.1&installed_packages=LinearAdvanceSettingPlugin:3.6.1&installed_packages=MeasureTool:1.2.0&installed_packages=FirmwareUpdater:1.0.1&installed_packages=VersionUpgrade33to34:1.0.1&installed_packages=VersionUpgrade35to40:1.0.0&installed_packages=PostProcessingPlugin:2.2.1&installed_packages=GCodeReader:1.0.1&installed_packages=VersionUpgrade34to35:1.0.1&installed_packages=VersionUpgrade42to43:1.0.0&installed_packages=DigitalLibrary:1.1.0&installed_packages=RemovableDriveOutputDevice:1.0.1&installed_packages=X3DReader:1.0.1&installed_packages=ModelChecker:1.0.1&installed_packages=GCodeGzReader:1.0.1&installed_packages=VersionUpgrade32to33:1.0.1&installed_packages=OBJWriter:1.0.1&installed_packages=STLWriter:1.0.1&installed_packages=VersionUpgrade26to27:1.0.1&installed_packages=VersionUpgrade41to42:1.0.0&installed_packages=UFPWriter:1.0.1&installed_packages=CuraEngineGradualFlow:0.1.0&installed_packages=VersionUpgrade27to30:1.0.1&installed_packages=MakerbotWriter:1.0.1&installed_packages=UFPReader:1.0.0&installed_packages=VersionUpgrade48to49:1.0.0&installed_packages=CuraProfileWriter:1.0.1&installed_packages=CuraDrive:1.2.0&installed_packages=LegacyProfileReader:1.0.1&installed_packages=VersionUpgrade49to410:1.0.0&installed_packages=SentryLogger:1.0.0&installed_packages=RotateTool:1.0.1&installed_packages=VersionUpgrade25to26:1.0.1&installed_packages=XRayView:1.0.1&installed_packages=VersionUpgrade22to24:1.0.1&installed_packages=OBJReader:1.0.1&installed_packages=SliceInfoPlugin:1.0.1&installed_packages=VersionUpgrade44to45:1.0.0&installed_packages=GCodeProfileReader:1.0.1&installed_packages=VersionUpgrade40to41:1.0.1&installed_packages=UpdateChecker:1.0.1&installed_packages=AMFReader:1.0.0&installed_packages=UM3NetworkPrinting:1.0.1&installed_packages=MachineSettingsAction:1.0.1&installed_packages=VersionUpgrade30to31:1.0.1&installed_packages=VersionUpgrade43to44:1.0.0&installed_packages=SettingsGuide2:2.9.2&installed_packages=VersionUpgrade413to50:1.0.0&installed_packages=VersionUpgrade21to22:1.0.1&installed_packages=SimulationView:1.0.1&installed_packages=UltimakerMachineActions:1.0.1&installed_packages=VersionUpgrade45to46:1.0.0&installed_packages=TrimeshReader:1.0.0&installed_packages=VersionUpgrade460to462:1.0.0&installed_packages=GenericCFFCPE:1.4.0&installed_packages=GenericNylon:1.4.0&installed_packages=DagomaChromatikPLA:1.0.1&installed_packages=PolyFlexPLA:1.0.1&installed_packages=GenericPC:1.4.0&installed_packages=VertexDeltaABS:1.4.0&installed_packages=UltimakerTPU:1.4.0&installed_packages=GenericTPU:1.4.0&installed_packages=VertexDeltaPLA:1.4.0&installed_packages=Filo3DPLA:1.0.1&installed_packages=GenericHIPS:1.4.0&installed_packages=VertexDeltaPET:1.4.0&installed_packages=FABtotumNylon:1.4.0&installed_packages=GenericABS:1.4.0&installed_packages=GenericCFFPA:1.4.0&installed_packages=OctofiberPLA:1.0.1&installed_packages=UltimakerCPEP:1.4.0&installed_packages=GenericCPEPlus:1.4.0&installed_packages=UltimakerCPE:1.4.0&installed_packages=UltimakerPP:1.4.0&installed_packages=UltimakerABS:1.4.0&installed_packages=GenericGFFPA:1.4.0&installed_packages=VertexDeltaTPU:1.4.0&installed_packages=FABtotumABS:1.4.0&installed_packages=UltimakerPLA:1.4.0&installed_packages=FiberlogyHDPLA:1.0.1&installed_packages=GenericPP:1.4.0&installed_packages=GenericPETG:1.4.0&installed_packages=PolyMaxPLA:1.0.1&installed_packages=PolyPlusPLA:1.0.1&installed_packages=UltimakerPC:1.4.0&installed_packages=GenericGFFCPE:1.4.0&installed_packages=PolyWoodPLA:1.0.1&installed_packages=IMADE3DJellyBOXPLA:1.0.1&installed_packages=FABtotumPLA:1.4.0&installed_packages=GenericCPE:1.4.0&installed_packages=GenericPLA:1.4.0&installed_packages=IMADE3DJellyBOXPETG:1.0.1&installed_packages=GenericBAM:1.4.0&installed_packages=FABtotumTPU:1.4.0&installed_packages=UltimakerBAM:1.4.0&installed_packages=UltimakerNylon:1.4.0&installed_packages=GenericToughPLA:1.4.0&installed_packages=UltimakerPVA:1.4.0&installed_packages=UltimakerTPLA:1.4.0&installed_packages=GenericPVA:1.4.0
+2024-01-07 14:19:42,815 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin Marketplace 1.0.0
+2024-01-07 14:19:42,824 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin ModelChecker 1.0.1
+2024-01-07 14:19:42,834 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin MonitorStage 1.0.1
+2024-01-07 14:19:42,845 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin PerObjectSettingsTool 1.0.1
+2024-01-07 14:19:42,854 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin PostProcessingPlugin 2.2.1
+2024-01-07 14:19:42,861 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin PrepareStage 1.0.1
+2024-01-07 14:19:42,869 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin PreviewStage 1.0.1
+2024-01-07 14:19:42,880 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin RemovableDriveOutputDevice 1.0.1
+2024-01-07 14:19:42,898 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SimulationView 1.0.1
+2024-01-07 14:19:42,909 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SliceInfoPlugin 1.0.1
+2024-01-07 14:19:42,919 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SolidView 1.0.1
+2024-01-07 14:19:42,927 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SupportEraser 1.0.1
+2024-01-07 14:19:42,935 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin TrimeshReader 1.0.0
+2024-01-07 14:19:42,946 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin UFPReader 1.0.0
+2024-01-07 14:19:42,956 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin UFPWriter 1.0.1
+2024-01-07 14:19:42,966 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin UltimakerMachineActions 1.0.1
+2024-01-07 14:19:43,045 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin UM3NetworkPrinting 2.0.0
+2024-01-07 14:19:43,067 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin USBPrinting 1.0.2
+2024-01-07 14:19:43,079 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade21to22 1.0.1
+2024-01-07 14:19:43,088 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade22to24 1.0.1
+2024-01-07 14:19:43,096 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade25to26 1.0.1
+2024-01-07 14:19:43,104 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade26to27 1.0.1
+2024-01-07 14:19:43,113 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade27to30 1.0.1
+2024-01-07 14:19:43,120 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade30to31 1.0.1
+2024-01-07 14:19:43,127 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade32to33 1.0.1
+2024-01-07 14:19:43,134 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade33to34 1.0.1
+2024-01-07 14:19:43,141 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade34to35 1.0.1
+2024-01-07 14:19:43,149 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade35to40 1.0.0
+2024-01-07 14:19:43,156 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade40to41 1.0.1
+2024-01-07 14:19:43,164 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade411to412 1.0.0
+2024-01-07 14:19:43,171 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade413to50 1.0.0
+2024-01-07 14:19:43,179 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade41to42 1.0.0
+2024-01-07 14:19:43,186 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade42to43 1.0.0
+2024-01-07 14:19:43,193 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade43to44 1.0.0
+2024-01-07 14:19:43,201 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade44to45 1.0.0
+2024-01-07 14:19:43,208 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade45to46 1.0.0
+2024-01-07 14:19:43,216 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade460to462 1.0.0
+2024-01-07 14:19:43,223 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade462to47 1.0.0
+2024-01-07 14:19:43,230 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade47to48 1.0.0
+2024-01-07 14:19:43,238 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade48to49 1.0.0
+2024-01-07 14:19:43,246 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade49to410 1.0.0
+2024-01-07 14:19:43,254 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade52to53 1.0.0
+2024-01-07 14:19:43,261 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade53to54 1.0.0
+2024-01-07 14:19:43,269 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin VersionUpgrade54to55 1.0.0
+2024-01-07 14:19:43,286 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin X3DReader 1.0.1
+2024-01-07 14:19:43,300 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin XmlMaterialProfile 1.0.1
+2024-01-07 14:19:43,307 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin XRayView 1.0.1
+2024-01-07 14:19:43,370 - DEBUG - [MainThread] CalibrationShapes.CalibrationShapes.__init__ [154]: Info CuraVersion --> 5.6.0
+2024-01-07 14:19:43,373 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin CalibrationShapes 2.2.2
+2024-01-07 14:19:43,382 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin LinearAdvanceSettingPlugin 3.6.1
+2024-01-07 14:19:43,396 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin MeasureTool 1.2.0
+2024-01-07 14:19:43,547 - WARNING - [MainThread] UM.Settings.SettingDefinition._deserialize_dict [668]: Unrecognised property comment in setting _plugin__curaenginegradualflow__0_1_0__max_flow_acceleration
+2024-01-07 14:19:43,577 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [538]: Loaded plugin SettingsGuide2 2.9.2
+2024-01-07 14:19:43,580 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [454]: Loading all plugins took 1.7880728244781494 seconds
+2024-01-07 14:19:43,594 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [163]: Looking for old configuration files to upgrade.
+2024-01-07 14:19:43,747 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [177]: Checking and performing updates took 0.15242958068847656
+2024-01-07 14:19:43,756 - INFO - [MainThread] UM.Qt.QtApplication.startSplashWindowPhase [266]: Completed loading preferences.
+2024-01-07 14:19:43,788 - INFO - [MainThread] UM.Qt.QtApplication.startSplashWindowPhase [304]: Created system tray icon.
+2024-01-07 14:19:45,752 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [565]: Loading metadata into container registry took 1.9559173583984375 seconds
+2024-01-07 14:19:45,763 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [142]: Selected build plate: 0
+2024-01-07 14:19:45,764 - INFO - [MainThread] cura.CuraApplication._log_hardware_info [934]: System: Windows
+2024-01-07 14:19:45,765 - INFO - [MainThread] cura.CuraApplication._log_hardware_info [935]: Release: 10
+2024-01-07 14:19:45,765 - INFO - [MainThread] cura.CuraApplication._log_hardware_info [936]: Version: 10.0.22621
+2024-01-07 14:19:45,765 - INFO - [MainThread] cura.CuraApplication._log_hardware_info [937]: Processor name: Intel64 Family 6 Model 167 Stepping 1, GenuineIntel
+2024-01-07 14:19:45,766 - INFO - [MainThread] cura.CuraApplication._log_hardware_info [938]: CPU Cores: 16
+2024-01-07 14:19:45,766 - DEBUG - [MainThread] cura.CuraApplication.run [862]: Using conan dependencies: {'boost': {'version': '1.82.0', 'revision': '902463606663219fc8c6d2102f1b8c6a'}, 'fmt': {'version': '9.0.0', 'revision': 'f034bfca2ec6697aa58abd59923ded26'}, 'curaengine_grpc_definitions': {'version': '0.1.0', 'revision': '91fe2866ddff1ed1f742b15c7448851e'}, 'zlib': {'version': '1.2.13', 'revision': '13c96f538b52e1600c40b88994de240f'}, 'pyarcus': {'version': '5.3.0', 'revision': '10e23195a57fca9807f6a5a7bb075c865de60059'}, 'dulcificum': {'version': '0.1.0-beta.1', 'revision': '88bb7474acc9aa9e5be49a64cf9f7cea'}, 'curaengine': {'version': '5.6.0', 'revision': '68a46e2ad3486c81c4d4b05f7ad95adb'}, 'pysavitar': {'version': '5.3.0', 'revision': '2527fe9a8d353cf599bf8102c4a60cbc7b3a0d1c'}, 'pynest2d': {'version': '5.3.0', 'revision': 'a44ffd40f4ad593091a9066589c0a1cf240275d5'}, 'curaengine_plugin_gradual_flow': {'version': '0.1.0', 'revision': '445f27841b8875113dc9cc996771a8d0'}, 'uranium': {'version': '5.6.0', 'revision': 'a492de0db7da2c49f7cc1b909ba7faf9'}, 'cura_binary_data': {'version': '5.6.0', 'revision': '92dc4180c0892752da8500190702cee5'}, 'cpython': {'version': '3.10.4', 'revision': 'b32bdcfcf86f4dca328f12e1faf40db7'}, 'fdm_materials': {'version': '5.6.0', 'revision': 'baa49624979d1771461427e308f9f506'}, 'protobuf': {'version': '3.21.9', 'revision': '515ceb0a1653cf84363d9968b812d6be'}, 'asio-grpc': {'version': '2.6.0', 'revision': 'a53a448bd89332863dd7dc497c1190f7'}, 'grpc': {'version': '1.50.1', 'revision': '41f20949b76f0ed2b816426375f0b52a'}, 'openssl': {'version': '1.1.1l', 'revision': 'de73a8aad9d5a14da8ed43b40592195a'}, 'arcus': {'version': '5.3.0', 'revision': 'c93fa068cb5b616a99e130bd4c0b11a3'}, 'nlohmann_json': {'version': '3.11.2', 'revision': 'a35423bb6e1eb8f931423557e282c7ed'}, 'range-v3': {'version': '0.12.0', 'revision': '4c05d91d7b40e6b91b44b5345ac64408'}, 'spdlog': {'version': '1.10.0', 'revision': '428e43acac34a509f04bb8f1502e75d2'}, 'ctre': {'version': '3.7.2', 'revision': '86bd3592feebcdafd2ab7b8a1aad0c80'}, 'pybind11': {'version': '2.10.4', 'revision': 'dd44c80a5ed6a2ef11194380daae1248'}, 'clipper': {'version': '6.4.2', 'revision': '4a99df8ff37476a0108cabee338a3cf2'}, 'rapidjson': {'version': '1.1.0', 'revision': '219bf1ea2756b263575da26288753262'}, 'stb': {'version': '20200203', 'revision': 'cba8fa43f7a0ea5389896744664823c9'}, 'scripta': {'version': '0.1.0', 'revision': '49f6bea1a1bed833bfdfe695525044d7'}, 'neargye-semver': {'version': '0.3.0', 'revision': '062aee0a7bf6c6aff702580ec695544a'}, 'savitar': {'version': '5.3.0', 'revision': 'e66e4e8f69e8764411d01b09140d04de8552552b'}, 'nest2d': {'version': '5.3.0', 'revision': '0e37a675ea212360daf2794541ad2c8b'}, 'docopt.cpp': {'version': '0.6.3', 'revision': '7937c6a7f2f8bccd86f67d25837f9a39'}, 'expat': {'version': '2.4.1', 'revision': 'a36c94ae11100f2e3259a9edd4f77055'}, 'libffi': {'version': '3.2.1', 'revision': '33b3eff20f1be5d569235ae100266729'}, 'mpdecimal': {'version': '2.5.0', 'revision': 'd8aaabf46cfa93efaadfe66733885102'}, 'bzip2': {'version': '1.0.8', 'revision': 'b056f852bd2d5af96fc7171aadfd6c0b'}, 'sqlite3': {'version': '3.36.0', 'revision': 'd42a67cd9049135c9d299f26809c4be1'}, 'tk': {'version': '8.6.10', 'revision': '52dd820e70534d4342fe6caec84beaff'}, 'xz_utils': {'version': '5.2.5', 'revision': 'dd8565c00d13a3a6fb2f01214f73a076'}, 'abseil': {'version': '20220623.0', 'revision': 'e182627de3e5bda7220302d5f69a37cd'}, 'c-ares': {'version': '1.19.0', 'revision': '3d781213ee5d4736b3e5a0a040c22a92'}, 're2': {'version': '20230301', 'revision': '94b1b4e643b4ea7878a1c75073a697a5'}, 'googleapis': {'version': 'cci.20221108', 'revision': '18441b49a9f5cf553d0d85b67c926df0'}, 'grpc-proto': {'version': 'cci.20220627', 'revision': '3ad14e3ffdae516b4da2407d5f23c71d'}, 'pugixml': {'version': '1.12.1', 'revision': '5a39f82651eba3e7d6197903a3202e21'}, 'nlopt': {'version': '2.7.0', 'revision': 'd928ab39fe3f6d91120c738b0de4751c'}, 'tcl': {'version': '8.6.10', 'revision': 'aec77174134a121aaa59321674d1e893'}}
+2024-01-07 14:19:45,767 - DEBUG - [MainThread] cura.CuraApplication.run [863]: Using python dependencies: {'certifi': {'version': '2023.11.17'}, 'setuptools': {'version': '65.5.0'}, 'pip': {'version': '23.3.1'}, 'packaging': {'version': '23.2'}, 'sip': {'version': '6.7.12'}, 'pyyaml': {'version': '6.0.1'}, 'tqdm': {'version': '4.66.1'}, 'ply': {'version': '3.11'}, 'idna': {'version': '3.6'}, 'charset-normalizer': {'version': '3.3.2'}, 'jinja2': {'version': '3.1.2'}, 'requests': {'version': '2.31.0'}, 'pygments': {'version': '2.17.2'}, 'python-dateutil': {'version': '2.8.2'}, 'pyjwt': {'version': '2.8.0'}, 'markupsafe': {'version': '2.1.3'}, 'tomli': {'version': '2.0.1'}, 'conan': {'version': '1.62.0'}, 'urllib3': {'version': '1.26.18'}, 'patch-ng': {'version': '1.17.4'}, 'six': {'version': '1.16.0'}, 'pluginbase': {'version': '1.0.1'}, 'fasteners': {'version': '0.19'}, 'bottle': {'version': '0.12.25'}, 'node-semver': {'version': '0.6.1'}, 'colorama': {'version': '0.4.6'}}
+2024-01-07 14:19:45,767 - INFO - [MainThread] cura.CuraApplication.run [865]: Initializing machine error checker
+2024-01-07 14:19:45,901 - WARNING - [MainThread] UM.Settings.SettingDefinition._deserialize_dict [668]: Unrecognised property comment in setting _plugin__curaenginegradualflow__0_1_0__max_flow_acceleration
+2024-01-07 14:19:45,905 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [74]: Default machine actions added for machine definition [creality_ender3max]
+2024-01-07 14:19:45,991 - WARNING - [MainThread] UM.Settings.SettingDefinition._deserialize_dict [668]: Unrecognised property comment in setting _plugin__curaenginegradualflow__0_1_0__max_flow_acceleration
+2024-01-07 14:19:46,018 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [190]: Extruder[creality_base_extruder_0 #2] added to [Creality Ender-3 Max Neo] at position [0]
+2024-01-07 14:19:46,018 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [79]: No machine with name Creality Ender-3 Max in list of firmware to check.
+2024-01-07 14:19:46,410 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [120]: Adding container tree for creality_ender3max took 0.3882622718811035 seconds.
+2024-01-07 14:19:46,417 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: ChangeAtZ
+2024-01-07 14:19:46,419 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: ColorMix
+2024-01-07 14:19:46,421 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: CreateThumbnail
+2024-01-07 14:19:46,422 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2024-01-07 14:19:46,424 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: DisplayProgressOnLCD
+2024-01-07 14:19:46,425 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: FilamentChange
+2024-01-07 14:19:46,426 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: InsertAtLayerChange
+2024-01-07 14:19:46,429 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: LimitXYAccelJerk
+2024-01-07 14:19:46,431 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: PauseAtHeight
+2024-01-07 14:19:46,433 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: RetractContinue
+2024-01-07 14:19:46,434 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: SearchAndReplace
+2024-01-07 14:19:46,437 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: Stretch
+2024-01-07 14:19:46,439 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: TimeLapse
+2024-01-07 14:19:46,440 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: UsePreviousProbeMeasurements
+2024-01-07 14:19:46,442 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: InputShaping
+2024-01-07 14:19:46,445 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: DisplayPrintInfosOnLCD
+2024-01-07 14:19:46,446 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: FlowTower
+2024-01-07 14:19:46,450 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: GCodeDocumentation
+2024-01-07 14:19:46,451 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: MaxFlow
+2024-01-07 14:19:46,453 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: RetractTower
+2024-01-07 14:19:46,455 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: SpeedTower
+2024-01-07 14:19:46,456 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [217]: Begin loading of script: TempFanTower
+2024-01-07 14:19:46,545 - WARNING - [MainThread] UM.Settings.SettingDefinition._deserialize_dict [668]: Unrecognised property comment in setting _plugin__curaenginegradualflow__0_1_0__max_flow_acceleration
+2024-01-07 14:19:46,610 - INFO - [MainThread] cura.CuraApplication.run [870]: Initializing machine manager
+2024-01-07 14:19:46,612 - INFO - [MainThread] cura.CuraApplication.run [875]: Initializing container manager
+2024-01-07 14:19:46,617 - DEBUG - [JobQueueWorker [0]] UM.Mesh.MeshData.calculateNormalsFromVertices [561]: Calculating normals took 0.0009984970092773438 seconds
+2024-01-07 14:19:46,618 - DEBUG - [JobQueueWorker [0]] STLReader.STLReader._read [68]: Loaded a mesh with 19416 vertices
+2024-01-07 14:19:46,626 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.loadAuthDataFromPreferences [258]: Attempting to load the auth data from preferences.
+2024-01-07 14:19:46,628 - WARNING - [MainThread] UM.OutputDevice.OutputDeviceManager.removeOutputDevice [235]: Could not find output device with id digital_factory to remove
+2024-01-07 14:19:46,655 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2024-01-07 14:19:46,685 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [188]: Loading theme file: C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\themes\cura-light\theme.json
+2024-01-07 14:19:46,711 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [323]: Loaded theme C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\themes\cura-light
+2024-01-07 14:19:46,711 - INFO - [MainThread] UM.Qt.Bindings.Theme.load [324]: System's em size is 13px.
+2024-01-07 14:19:46,714 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [164]: New error check scheduled.
+2024-01-07 14:19:47,252 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [355]: Creating post processing plugin view.
+2024-01-07 14:19:47,336 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [365]: Post processing view created.
+2024-01-07 14:19:47,459 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [444]: file:///C:/Program Files/UltiMaker Cura 5.6.0/share/cura/resources/qml/Settings/SettingView.qml:204:16: QML SettingDefinitionsModel: Binding loop detected for property "expanded"
+2024-01-07 14:19:47,720 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2024-01-07 14:19:48,113 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [586]: Calculating normals took 0.009027481079101562 seconds
+2024-01-07 14:19:48,115 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2024-01-07 14:19:48,190 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2024-01-07 14:19:48,495 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2024-01-07 14:19:48,507 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [118]: Creating model checker view.
+2024-01-07 14:19:48,512 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [127]: Model checker view created.
+2024-01-07 14:19:48,513 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [76]: Creating dialog [MoreInfoWindow.qml]
+2024-01-07 14:19:48,899 - DEBUG - [JobQueueWorker [2]] cura.Machines.ContainerTree.run [174]: Started background loading of MachineNodes
+2024-01-07 14:19:48,899 - DEBUG - [MainThread] cura.CuraApplication.run [916]: Booting Cura took 7.5848469734191895 seconds
+2024-01-07 14:19:48,912 - DEBUG - [MainThread] cura.Machines.Models.IntentSelectionModel._update [74]: Updating IntentSelectionModel.
+2024-01-07 14:19:48,948 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2024-01-07 14:19:49,047 - DEBUG - [MainThread] cura.Machines.Models.IntentSelectionModel._update [74]: Updating IntentSelectionModel.
+2024-01-07 14:19:49,049 - DEBUG - [MainThread] cura.Machines.Models.IntentSelectionModel._update [74]: Updating IntentSelectionModel.
+2024-01-07 14:19:49,055 - DEBUG - [MainThread] cura.Machines.Models.IntentSelectionModel._update [74]: Updating IntentSelectionModel.
+2024-01-07 14:19:49,266 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2024-01-07 14:19:49,408 - DEBUG - [JobQueueWorker [2]] cura.Machines.ContainerTree.run [185]: All MachineNode loading completed
+2024-01-07 14:19:50,149 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [121]: Initialized OpenGL subsystems.
+2024-01-07 14:19:50,150 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [122]: OpenGL Version:  4.1.0 NVIDIA 546.29
+2024-01-07 14:19:50,153 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [123]: OpenGL Vendor:   NVIDIA Corporation
+2024-01-07 14:19:50,155 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [124]: OpenGL Renderer: NVIDIA GeForce RTX 3070 Ti/PCIe/SSE2
+2024-01-07 14:19:50,158 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [125]: GLSL Version:    4.0.0
+2024-01-07 14:19:50,162 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [211]: Support for Vertex Array Objects: True
+2024-01-07 14:19:50,165 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\default.shader]...
+2024-01-07 14:19:50,201 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\selection.shader]...
+2024-01-07 14:19:50,211 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\select_face.shader]...
+2024-01-07 14:19:50,219 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\default.shader]...
+2024-01-07 14:19:50,222 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\composite.shader]...
+2024-01-07 14:19:50,233 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\overhang.shader]...
+2024-01-07 14:19:50,247 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\striped.shader]...
+2024-01-07 14:19:50,259 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\transparent_object.shader]...
+2024-01-07 14:19:50,269 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\striped.shader]...
+2024-01-07 14:19:50,271 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\xray.shader]...
+2024-01-07 14:19:50,276 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\xray_composite.shader]...
+2024-01-07 14:19:50,288 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\default.shader]...
+2024-01-07 14:19:50,291 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\grid.shader]...
+2024-01-07 14:19:50,302 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\uranium\resources\shaders\platform.shader]...
+2024-01-07 14:19:50,321 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [61]: Loading [C:\Program Files\UltiMaker Cura 5.6.0\share\cura\resources\shaders\xray.shader]...
+2024-01-07 14:19:50,807 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [221]: Error check finished, result = False, time = 4.09s
+2024-01-07 14:19:51,424 - DEBUG - [MainThread] cura.AutoSave._onTimeout [64]: Autosaving preferences, instances and profiles took 0.014999866485595703 seconds
+2024-01-07 14:19:51,491 - INFO - [JobQueueWorker [1]] SettingsGuide2.CuraSettingsGuide.load_all [181]: Finished loading Settings Guide articles.
+2024-01-07 14:20:00,656 - DEBUG - [MainThread] cura.AutoSave._onTimeout [64]: Autosaving preferences, instances and profiles took 0.015000343322753906 seconds
